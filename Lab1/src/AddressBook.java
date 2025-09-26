@@ -7,6 +7,11 @@ public class AddressBook {
         buddies = new ArrayList<>();
     }
 
+    @Override
+    public String toString() {
+        return super.toString();
+    }
+
     public void addBuddy(BuddyInfo buddy) {
         buddies.add(buddy);
     }
